@@ -2,7 +2,7 @@
 <p>
 This is a Smart Home System project<br> 
 
-It consists of two microcontrollers: one Master and one Slave. Through the Master, we can access the system to control the home.<br>
+It consists of two microcontrollers <b>STM32F401CC</b>: one Master and one Slave. Through the Master, we can access the system to control the home.<br>
 
 First, the Master asks the Admin to set a password the first time that they enter the system. After that, it ask them to enter the password displaying on the LCD. The digits are entered using the keypad. If password is wrong three times, an alarm turns on. However, if the password entered is right, they can access the system. The same applies to the Guest, but the Admin has more control than the Guest.
 
